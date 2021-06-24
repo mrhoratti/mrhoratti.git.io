@@ -1,103 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>New Project</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MAHANTESH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/836a943e18.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="nav-brand">
+            <a href="index.html">
+              <img src="images/logo.png" alt="MAHANTESH" />
+            </a>
+          </div>
+          <div class="burger-menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#landing-page">
+                <img
+                  src="C:\Users\Mahantesh\Desktop\project1\portfolio-website-master\images\profile-pic.png"
+                  alt="MAHANTESH"
+                  class="profile-pic nav-link"
+                />
+                <span class="caption nav-link">MAHANTESH</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="landing-page" class="landing-page">
+        <div class="container">
+          <div class="main-message">
+            <h2>MAHANTESH</h2>
+            <div class="intro-btn">
+              <div class="cta">
+                <a href="#contact" class="btn">Get In Touch</a>
+              </div>
+              <div class="cta">
+                <a href="#projects" class="btn">My Projects</a>
+              </div>
+            </div>
+            <div>
+              <a href="#about" class="scroll-down">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about-img">
+            <img
+              src="C:\Users\Mahantesh\Desktop\project1\portfolio-website-master\images\profile-pic.png"
+              alt="MAHANTESH"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-text-box">
+            <h2>Hello 👋🏽</h2>
+            <p>I am completed SSLC in Mudalgi with scored 94.08%,
+            and then completed puc in Alvas moodbidri with scored 90.166%
+            presently studing GIT college Belagavi(till 5th sem CGPA 8.14)
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+            </p>
+            
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <div class="title-heading">
+            <h2>INTERNSHIP</h2>
+            <p>
+              i am still doing internship 
+            </p>
+          </div>
+          
+          
+            <div class="tier-item">
+              <i class="fa fa-file-code-o" aria-hidden="true"></i>
+              <h2>PSD to HTML</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                quasi earum, debitis exercitationem quod labore quae, saepe
+                voluptatum fugiat placeat iste, numquam maxime? Aliquam
+                explicabo, reiciendis corrupti voluptatum eum esse?
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section id="projects" class="projects">
+        <div class="title-heading">
+          <h2>PROJECTS</h2>
+          <p>these are some of my recent projects</p>
+        </div>
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="images/sppms.png" />
+          </div>
+          <div class="project-description">
+            <h2>HEART DISEASES</h2>
+            <p>
+              Here in this project  i m able to predict the person is herat diseases 
+              are not.this project requirement dataset and then import some libraries from
+             python using google colab 
+            </p>
+            <a href="#" class="project-link" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
+            >
+          </div>
+        </div>
 
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
+        <div class="project-item">
+          <div class="project-description has-margin-right">
+            <h2>HOUSE PRIZE </h2>
+            <p>
+              Here in this project  i m able to predict the house prize using dataset in Machine learning
+.this project requirement dataset and then import some libraries from
+             python using google colab .
+            </p>
+            <a href="#" class="project-link" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
+            >
+          </div>
+          <div class="project-img">
+            <img src="images/to-do.png" />
+          </div>
+        </div>
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
-</head>
-<body>
-
-<h2>NASA Project!!! </h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
-
-<header>
-  <h2>Cities</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
-</section>
-
-<footer>
-  <p>Footer</p>
-</footer>
-
-</body>
+         </div>
+        <hr />
+      </section>
+      <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="container">
+          <p>
+            <a href="mailto:mahanteshhoratti747@gmail.com"
+              ><i class="fas fa-envelope-open">mahanteshhoratti747@gmail.com</i> </a
+            >
+          </p>
+          
+        </div>
+        <hr />
+      </section>
+      <footer>
+        <div class="footer-nav">
+          <a href="#landing-page" class="footer-nav-link">Home</a>
+          <a href="#about" class="footer-nav-link">About</a>
+          <a href="#services" class="footer-nav-link">Services</a>
+          <a href="#projects" class="footer-nav-link">Projects</a>
+          <a href="#contact" class="footer-nav-link">Contact</a>
+        </div>
+        
+        
+      </footer>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
